@@ -1,5 +1,5 @@
 {
-  "name": "js-clone",
+  "name": "js-clone-deep",
   "version": "1.0.0",
   "description": "Utility module for JS Object/Array cloning ",
   "main": "index.js",

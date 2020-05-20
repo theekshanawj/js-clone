@@ -1,12 +1,12 @@
-# js-clone
+# js-clone-deep
 JavaScript utility method for deep cloning Object and Array.
 
 ## How to use
 
-Get the npm module from [here](https://www.npmjs.com/package/js-clone) 
+Get the npm module from [here](https://www.npmjs.com/package/js-clone-deep) 
 
 ```javascript
-const clone = require('js-clone');
+const clone = require('js-clone-deep');
 
 // Source object
 const source = {
