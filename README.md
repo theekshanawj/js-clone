@@ -1,21 +1,33 @@
 # js-clone
-JavaScript utility method for deep cloning of Object and Arrays
+JavaScript utility method for deep cloning Object and Array.
 
 ## How to use
+
+Get the npm module from [here](https://www.npmjs.com/package/js-clone) 
 
 ```javascript
 const clone = require('js-clone');
 
 // Source object
-const source = { id: 346313, items: [...],  meta: {...}  };
+const source = {
+  object: { nested: { deepNesting: { key: 1 } }  },
+  array: [1 , 2, 4],
+};
 
-// Cloned object
+// Clone the object
 const copy = clone(source);
+
+console.log(source.object === copy.object);
+// false
+
+console.log(source.array === copy.array);
+// false
 
 ```
 
-### API Specification
+### Developer warning
 
-This method currently supports deep cloning of `Objects` and `Arrays` only. Data structures such `Set, WeakSets, Maps, WeakMaps, Streams, etc ` will not be cloned.
+This method currently supports deep cloning of `Object ({})` and `Array ([])` only. Data structures such `Set, WeakSets, Maps, WeakMaps, Streams, etc ` will not be cloned. 
 
+Use this module considering the above limitation. 
 
