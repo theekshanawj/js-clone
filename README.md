@@ -16,6 +16,6 @@ const copy = clone(source);
 
 ### API Specification
 
-This method currently supports deep cloning of `Objects` and `Arrays` only. Data structures such `Set, WeakSetsm Maps, WeakMaps, Streams, etc ` will not be cloned.
+This method currently supports deep cloning of `Objects` and `Arrays` only. Data structures such `Set, WeakSets, Maps, WeakMaps, Streams, etc ` will not be cloned.
 
 
