@@ -1,0 +1,24 @@
+{
+  "name": "js-clone",
+  "version": "1.0.0",
+  "description": "util module for JS Object/Array cloning ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theekshanawj/js-clone.git"
+  },
+  "keywords": [
+    "clone",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Theekshana Wijesinghe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theekshanawj/js-clone/issues"
+  },
+  "homepage": "https://github.com/theekshanawj/js-clone#readme"
+}
