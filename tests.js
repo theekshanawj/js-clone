@@ -41,4 +41,4 @@ assert(clone('asss') === null, 'clone only support objects and arrays');
 assert(clone() === null, 'undefined/null should return null');
 
 
-console.log('All test test have been passed');
+console.log('All tests have been passed');
