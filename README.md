@@ -51,11 +51,11 @@ const generateRandomObject = (object, keyCount) => {
 
 let nestingLevel = 1;
 while (nestingLevel <= 2014) {
+    
+       const source = {};
+       let pointer = source;
 
-	const source = {};
-    let pointer = source;
-
-    // generate a nested symmetric object where keys in a level and nested levels are equal 
+       // generate a nested symmetric object where keys in a level and nested levels are equal 
 	for (let i = 1; i <= nestingLevel ; i += 1) {
 	   generateRandomObject(pointer, nestingLevel);
 	   if ( nestingLevel - i > 0) {
