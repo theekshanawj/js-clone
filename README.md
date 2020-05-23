@@ -50,7 +50,7 @@ const generateRandomObject = (object, keyCount) => {
 };
 
 let nestingLevel = 1;
-while (nestingLevel <= 2014) {
+while (nestingLevel <= 1024) {
     
        const source = {};
        let pointer = source;
