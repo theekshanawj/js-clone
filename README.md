@@ -85,8 +85,8 @@ while (nestingLevel <= 2014) {
 
 ### Results
 
-|Nested level| Time taken by Clone `Tclone` (ms) | Time taken by Lodash.cloneDeep `Tlodash` (ms) | `(1- Tclone/Tlodash)*100` 
-| --- | --- | --- | --- |
+|Nested level| Time taken by Clone `Tclone` (ms) | Time taken by Lodash.cloneDeep `Tlodash` (ms) | `(1- Tclone/Tlodash)*100` |
+| :---: | :---: | :---: | :---: |
 |1| 0.155 |0.419 | 62.8% |
 |2| 0.0203 |0.0576 | 64.7% |
 |4| 0.0513 |0.063 | 18.5% |
